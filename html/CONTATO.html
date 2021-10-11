@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 - Notícias de COVID-19</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
@@ -17,21 +18,22 @@
         <div> <a href="CONTATO.html"> CONTATO </a> </div>
         <div> <a href="SAIBA MAIS.html"> SAIBA MAIS </a> </div>
     </div>
+
  
-	<h1 id="Entre em contato">Contato</h1>
+	<div id="contato"> 
+        <p id="fonteContato">Contato</p>  
+        <p  Gostaria de fazer alguma crítica, sugestão ou mesmo conhecer mais sobre a equipe? <br>Entre com seus dados a baixo e sua mensagem, que assim que possível responderemos!</p>
 
-    <hr> 
+        <form>
+            <input type="text" name="Nome" placeholder="Por favor, digite seu nome aqui">
+            <input type="text" name="CPF" placeholder="Por favor, digite seu CPF aqui. Exemplo: 999.999.999-99">
+            <input type="email" name="E-Mail" placeholder="Por favor, digite seu E-Mail">
+            <label for="Mensagem">Escreva sua mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <input type="submit" name="Enviar" value="Enviar">
 
-    <p>Gostaria de fazer alguma crítica, sugestão ou mesmo conhecer mais sobre a equipe? <br>Entre com seus dados a baixo e sua mensagem, que assim que possível responderemos!</p>
-
-<form>
-<input type="text" name="Nome" placeholder="Por favor, digite seu nome aqui">
-<input type="text" name="CPF" placeholder="Por favor, digite seu CPF aqui. Exemplo: 999.999.999-99">
-<input type="email" name="E-Mail" placeholder="Por favor, digite seu E-Mail">
-<label for="Mensagem">Escreva sua mensagem:</label>
-<textarea id="mensagem" name="mensagem"></textarea>
-<input type="submit" name="Enviar" value="Enviar">
-</form>
+        </form>
+    </div>
 
 </body>
 </html>

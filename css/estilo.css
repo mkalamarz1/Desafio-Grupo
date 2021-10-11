@@ -139,3 +139,17 @@ a{
     background-color: yellow;
     border-radius: 20px; 
 }
+
+#contato{
+    
+}
+
+#fonteContato{
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color:white;
+    font-size: 40px;
+    
+   
+}
