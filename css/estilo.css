@@ -14,7 +14,7 @@ body{
     
 }
 
-a{
+a {
     color: white;
     text-decoration: unset;
     border-radius: 5px;
@@ -166,3 +166,4 @@ a{
     color: white;
     font-size: 20px;
 }
+
