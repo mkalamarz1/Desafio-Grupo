@@ -168,8 +168,11 @@ a {
 }
 
 #fonteContatinho{
-    justify-content: center;
+    justify-content: right;
     display: flex;
-    padding-left: 70px;
 }
 
+#textoContatinho{
+    justify-content: left;
+    display: flex;
+}
