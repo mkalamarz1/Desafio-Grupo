@@ -141,15 +141,23 @@ a{
 }
 
 #contato{
-    
-}
-
-#fonteContato{
     justify-content: center;
     display: flex;
     font-weight: bold;
     color:white;
     font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: orange;
     
-   
+}
+
+#container{
+  
+
+}
+
+#frase{
+    color: white;
+    font-size: 20px;
 }
