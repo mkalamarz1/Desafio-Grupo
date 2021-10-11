@@ -167,3 +167,9 @@ a {
     font-size: 20px;
 }
 
+#fonteContatinho{
+    justify-content: center;
+    display: flex;
+    padding-left: 70px;
+}
+
