@@ -14,9 +14,9 @@ Em todas as páginas, tem divisões padrões: navegação, título (trocando de 
 <b>Rodapé</b><br />
 <img src="imagensREADME/div-padrao1.png"/>
 
-Na página principal chamada Início, contém 6 notícias positivas escolhidas por grupo 03. Incluindo as descrições de imagens para cegos poderem ler de forma satisfatória. 
+Na página principal chamada HOME, contém 6 notícias positivas escolhidas por grupo 03. Incluindo as descrições de imagens para cegos poderem ler de forma satisfatória. 
 
-Nesta página <b>principal</b>, contém 5 divisões: Imagens principais, Início de notícias, Quadro 1 e 2 de notícias com imagens, e Quadro 3 de notícia com vídeo. E nesse quadro 3, tem video configurado no HTML para funcionar normalmente. 
+Nesta página <b>HOME</b>, contém 5 divisões: Imagens principais, Início de notícias, Quadro 1 e 2 de notícias com imagens, e Quadro 3 de notícia com vídeo. E nesse quadro 3, tem video configurado no HTML para funcionar normalmente. 
 
 <b>Imagens principais</b>, <b>Início de notícias</b> e <b>Quadro 1 de notícias com imagens</b><br />
 <img src="imagensREADME/div-inicio1.png"/>
@@ -27,17 +27,21 @@ Nesta página <b>principal</b>, contém 5 divisões: Imagens principais, Início
 <b>No quadro 3, mostra vídeo configurado</b><br />
 <img src="imagensREADME/div-inicioVideo.png"/>
 
-Nesta página <b>Quem Somos</b>, contém 2 divisões: Quadros 1 e 2 de colaboradores do grupo 03.
+Nesta página <b>SOBRE</b>, contém 2 divisões: Quadros 1 e 2 de colaboradores do grupo 03.
 
 <b>Quadros 1 e 2 de colaboradores do grupo 03</b><br />
 <img src="imagensREADME/div-quemSomos.png"/>
 
-Nesta página <b>Contato</b>, contém 1 divisão pai que tem formulário e texto geral de forma interna.
+Nesta página <b>CONTATO</b>, contém 1 divisão pai que tem formulário e texto geral de forma interna.
 
 <b>Formulário</b> e <b>Texto Geral</b><br />
 <img src="imagensREADME/div-contato.png"/>
 
+<<<<<<< Updated upstream
 Nesta página <b>Saiba Mais</b>, contém 1 divisão pai e vários divisões filhos.
+=======
+Nesta página SAIBA MAIS, contém 1 divisão pai e vários divisões filhos.
+>>>>>>> Stashed changes
 
 <b>Quadro 1 de fontes internas</b><br />
 <img src="imagensREADME/div-saibaMais.png"/>

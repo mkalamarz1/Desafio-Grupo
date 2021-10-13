@@ -69,7 +69,7 @@ ul li a:hover {
     text-align: center;
 }
 
-/* 2 IMAGENS VACINADAS - PÁGINA INÍCIO */
+/* 2 IMAGENS VACINADAS - PÁGINA HOME */
 #noticiasPrincipais {
     background-color: #ff4e00;
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
@@ -89,7 +89,7 @@ ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* INÍCIO DE NOTÍCIAS - PÁGINA INÍCIO */
+/* INÍCIO DE NOTÍCIAS - PÁGINA HOME */
 #noticiasGerais {
     background-image: linear-gradient(#242529, #3D3F45);
     justify-content: center;
@@ -104,7 +104,7 @@ ul li a:hover {
     font-size: 25px;
 }
 
-/* QUADRO 1 DE NOTICIAS - PÁGINA INÍCIO */
+/* QUADRO 1 DE NOTICIAS - PÁGINA HOME */
 #quadro1 {
     width: 100%;
     padding: 40px 0;
@@ -139,7 +139,7 @@ ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* QUADRO 2 DE NOTÍCIAS - PÁGINA INÍCIO */
+/* QUADRO 2 DE NOTÍCIAS - PÁGINA HOME */
 #quadro2 {
     width: 100%;
     padding: 40px 0 10px 0;
@@ -174,7 +174,7 @@ ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* QUADRO 3 DE VIDEO - PÁGINA INÍCIO */
+/* QUADRO 3 DE VIDEO - PÁGINA HOME */
 #videoContainer {
     text-align: center;
     position: relative;
@@ -198,7 +198,7 @@ ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* BOTÃO GERAL - PÁGINA INÍCIO */
+/* BOTÃO GERAL - PÁGINA HOME */
 .botao {
     background-color: blue;
     border-radius: 10px; 
@@ -211,7 +211,7 @@ ul li a:hover {
     text-decoration: none;
 }
 
-/* BOTÃO DE VÍDEO - PÁGINA INÍCIO */
+/* BOTÃO DE VÍDEO - PÁGINA HOME */
 #botao-video {
     background-color: blue;
     border-radius: 10px; 
@@ -225,8 +225,8 @@ ul li a:hover {
     text-decoration: none;
 }
 
-/* QUADRO 1 - PÁGINA QUEM SOMOS */
-#quadroQuemSomos1 {
+/* QUADRO 1 - PÁGINA SOBRE */
+#quadroSobre1 {
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -239,7 +239,7 @@ ul li a:hover {
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.quemSomos {
+.sobre {
     width: 70%;
     display: inline-block;
     text-align: center;
@@ -247,7 +247,7 @@ ul li a:hover {
     padding: 10px;
 }
 
-.quemSomos p {
+.sobre p {
     font-size: 14px;
     width: 70%;
     text-align: center;
@@ -256,12 +256,12 @@ ul li a:hover {
     color: black;
 }
 
-.quemSomos h3 {
+.sobre h3 {
     font-size: 20px;
 }
 
-/* QUADRO 2 - PÁGINA QUEM SOMOS */
-#quadroQuemSomos2 {
+/* QUADRO 2 - PÁGINA SOBRE */
+#quadroSobre2 {
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -274,7 +274,7 @@ ul li a:hover {
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.quemSomos2 {
+.sobre2 {
     width:70%;
     display: inline-block;
     text-align: center;
@@ -282,7 +282,7 @@ ul li a:hover {
     padding: 10px;
 }
 
-.quemSomos2 p {
+.sobre2 p {
     font-size: 14px;
     width: 70%;
     text-align: center;
@@ -291,11 +291,11 @@ ul li a:hover {
     color: black;
 }
 
-.quemSomos2 h3 {
+.sobre2 h3 {
     font-size: 20px;
 }
 
-/* FOTOS - PÁGINA QUEM SOMOS */
+/* FOTOS - PÁGINA SOBRE */
 .imagemLinkedin {
     max-width: 70%;
     display: flex;
@@ -304,7 +304,7 @@ ul li a:hover {
     text-align: center;
 }
 
-/* BOTÃO DE LINKEDIN - PÁGINA QUEM SOMOS */
+/* BOTÃO DE LINKEDIN - PÁGINA SOBRE */
 .botao-linkedin {
     background-color: #0e76a8;
     border-radius: 10px; 
