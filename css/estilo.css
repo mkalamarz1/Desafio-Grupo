@@ -12,16 +12,18 @@ body{
     background-image:  linear-gradient(#242529, #3D3F45);
     justify-content: right;
 }
-<<<<<<< Updated upstream
+
 ul{
     float: right;
     margin: 0 25px;  
 }
+
 ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0;
 }
+
 ul li a{
     display: block;
     margin: 10px 5px;
@@ -30,6 +32,7 @@ ul li a{
     font-size: 18px;
     font-weight: bold;
 }
+
 ul li a:link, ul li a:visited{
     font-weight: normal;
     color: white;
@@ -38,29 +41,14 @@ ul li a:link, ul li a:visited{
     text-transform: uppercase;
     padding: 10px;
 }
+
 ul li a:hover{
     color: orange;
 }
+
 /*TITULO G3*/
 .title{
     background-image:  linear-gradient(#242529, #3D3F45);
-=======
-
-
-#navbar a {
-    color: white;
-    text-decoration: unset;
-    border-radius: 5px;
-    border: gray 2px solid;
-} 
-.menu{
-    padding-top: 50px;
-    margin-right: 90px;
-}
-
-
-#title{
->>>>>>> Stashed changes
     border-radius: 20px;
     max-width:40%;
     border: none solid;
@@ -75,17 +63,11 @@ ul li a:hover{
 } 
 
 /* 2 IMAGENS VACINADAS */
-<<<<<<< Updated upstream
 .noticiasPrincipais{
     background-color: orange;  
     padding:50px 0;      
-=======
-#noticiasPrincipais{
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    padding-bottom: 1px;   
->>>>>>> Stashed changes
 }
+
 .noticiasPrincipais p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: size 50px;
@@ -93,6 +75,7 @@ ul li a:hover{
     width:70%;
     margin:0 auto;  
 }
+
 .imagensPrincipais{
     text-align: center;
    justify-content: center;
@@ -103,36 +86,18 @@ ul li a:hover{
     background-image:linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
-<<<<<<< Updated upstream
     margin:0;
     padding:8px;
-=======
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
->>>>>>> Stashed changes
 }
+
 .fonte{
     color: white;
     font-weight: bold;
-<<<<<<< Updated upstream
     font-size:25px;
 }
 
 /* QUADRO 1 DE NOTICIAS */
 .bloco1{
-=======
-    font-size: 25px;
-}
-
-/* QUADRO 1 DE NOTICIAS */
-#noticias1{
-    display: flex;
-    justify-content: space-between;
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
->>>>>>> Stashed changes
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -142,6 +107,7 @@ ul li a:hover{
     display: inline-flex;
     text-align: center;
 }
+
 .noticia1{
     display: inline-block;
     text-align: center;
@@ -149,13 +115,14 @@ ul li a:hover{
     margin: 0 5px;
     padding:10px;    
 }
-<<<<<<< Updated upstream
+
 .noticia1 p{
     font-size: 14px;
     width:70%;
     text-align: left;
     margin:auto;
 }
+
 .imagemNews{
     width: 70%;
     height: 50%;
@@ -173,6 +140,7 @@ ul li a:hover{
     text-align: center;
     background-color: orange;
 }
+
 .noticia2{
     display: inline-block;
     text-align: center;
@@ -180,74 +148,21 @@ ul li a:hover{
     margin: 0 5px;
     padding:10px;   
 }
+
 .noticia2 p{
     font-size: 14px;
     width:70%;
     text-align: left;
     margin:auto;
 }
+
 .imagemNews2{
     width: 70%;
     height: 50%;
 }
+
 .noticia2{
     margin-left: 20px;   
-=======
-
-#imagemPrimario{
-    width: 75%;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 45px;
-   
-}
-
-#imagemSecundaria{
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 51%;
-    margin-bottom: 45px;
-}
-
-#imagemTerceira{
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 49%;
-    margin-bottom: 45px;
-   
-}
-
-/* QUADRO 2 DE NOTÍCIAS */
-#noticias2{
-    display: flex;
-    justify-content: space-between;
-    background-color: #ff4e00;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-    padding-bottom: 50px;
-
-}
-
-#noticia2{
-    margin-left: 20px;
-
-}
-
-#noticia2-1{
-    margin-left: 20px;
-}
-
-#noticia2-1 p{
-    margin-left: 50px;
-    
-}
-
-.imagem1{
-    margin-left: 170px;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    width: 50%;
-    
->>>>>>> Stashed changes
 }
 
 /* QUADRO 3 DE VIDEO */
@@ -257,11 +172,13 @@ ul li a:hover{
     position: relative;
     padding:20px 0 50px 0;   
 }
+
 .fonteVideo{
     justify-content: center;
     display: flex;
     color: white;
 }
+
 .video{
     width: 50%;
     padding-top: 50px;   
@@ -273,6 +190,7 @@ ul li a:hover{
     margin:0;
     padding:30px
 }
+
 .blocoGeral h1{
     margin:0;
     color:black;
@@ -283,6 +201,7 @@ ul li a:hover{
 .quemSomos h3{
     font-size:20px;
 }
+
 .blocoQuemSomos1{
     width: 100%;
     padding: 40px 0;
@@ -293,6 +212,7 @@ ul li a:hover{
     display: inline-flex;
     justify-content: center;
 }
+
 .quemSomos{
     width:70%;
     display: inline-block;
@@ -301,6 +221,7 @@ ul li a:hover{
     margin: 0 5px;
     padding:10px;
 }
+
 .quemSomos p{
     font-size: 14px;
     width:70%;
@@ -308,6 +229,7 @@ ul li a:hover{
     margin:auto;
     margin-top:5px;
 }
+
 /*QUADRO 2 DE QUEM SOMOS*/
 .blocoQuemSomos2{
     width: 100%;
@@ -319,6 +241,7 @@ ul li a:hover{
     display: inline-flex;
     justify-content: center;
 }
+
 .quemSomos2{
     width:70%;
     display: inline-block;
@@ -327,6 +250,7 @@ ul li a:hover{
     margin: 0 5px;
     padding:10px;
 }
+
 .quemSomos2 p{
     font-size: 14px;
     width:70%;
@@ -334,9 +258,11 @@ ul li a:hover{
     margin:auto;
     margin-top:5px;
 }
+
 .quemSomos2 h3{
     font-size:20px;
 }
+
 /*FOTOS DE quemsomos.html*/
 .imagemPrimario{
     max-width: 70%;
@@ -354,6 +280,7 @@ ul li a:hover{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
+
 .textoContatinho{
     display: table-cell;
     width: 50%;
@@ -363,6 +290,7 @@ ul li a:hover{
     font-size:20px;
     text-transform: uppercase;
 }
+
 /*FORM*/
 .form{
     display: table-cell;
@@ -370,13 +298,16 @@ ul li a:hover{
     width: 80%;
     margin: 0 70px;
 }
+
 .form1{
     padding:5px;
 }
+
 .perguntas{
     font-size:20px;
     color:black
 }
+
 input{
     width:100%;
     margin-top:5px;
@@ -384,6 +315,7 @@ input{
     border-radius:10px;
     font-size:15px;
 }
+
 textarea{
     width:100%;
     margin-top:5px;
@@ -392,7 +324,7 @@ textarea{
     font-size:15px;
 }
 
-<<<<<<< Updated upstream
+
 /* BOTÃO DE ACESSAR index.html */
 .botao{
     background-color: yellow;
@@ -400,6 +332,7 @@ textarea{
     padding:10px 20px;
     border:none;
 }
+
 .botao a{
     color:black;
     font-weight:bold;
@@ -414,6 +347,7 @@ textarea{
     border:none;
     text-align:center;
 }
+
 .botao-video a{
     color:black;
     font-weight:bold;
@@ -428,49 +362,13 @@ textarea{
     border:none;
     text-align:center;
 }
+
 .botao-linkedin a{
     color:white;
     font-weight:bold;
     text-decoration:none;
     font-size:18px;
 }
-=======
-/* BOTÃO */
-.button{
-    background-color: blue;
-    color: white;
-    border-radius: 20px;
-    margin-left: 300px; 
-}
-
-.botao{
-    background-color: blue;
-    color: white;
-    border-radius: 20px;
-    margin-left: 500px; 
-}
-
-#botaoVideo{
-    background-color: blue;
-    color: white;
-    border-radius: 20px;
-    margin-left: 800px; 
-}
-
-
-/* PÁGINA CONTATO */
-#contato{
-    justify-content: center;
-    display: flex;
-    font-weight: bold;
-    color:white;
-    font-size: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #ff4e00;
-    background-image :linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-
->>>>>>> Stashed changes
 
 /*BOTÃO DE ENVIAR contato.html*/
 .botao-enviar{
@@ -490,6 +388,7 @@ textarea{
     padding:8px 0;
     color:white;
 }
+
 /*INÍCIO DE SAIBA MAIS*/
 .blocoSaibaMais1{
     width: 90%;
@@ -497,21 +396,23 @@ textarea{
     margin:0 auto;
     padding:10px 0 40px 0; 
 }
+
 .fontes{
     text-align: left;
 }
+
 .fontes h3{
     font-size:20px;
     margin-bottom:0;
     padding:10px 0;
 }
+
 .fontes a{
     color:mediumblue;
     text-decoration: none;
     margin:0;    
 }
 
-<<<<<<< Updated upstream
 /*FOOTER*/
 footer{
     background:black;
@@ -522,32 +423,3 @@ footer{
     text-align:center;
     width:100%;  
 }
-
-
-
-
-
-=======
-#textoContatinho{
-    display: flex;
-    justify-content: space-evenly;
-    background-image:linear-gradient(#242529, #3D3F45);
-    padding-bottom: 50px;
-}
-
-#fonteContatinho{
-    padding-top: 100px;
-    font-size: 25px;
-    color: white;
-}
-
-#form p{
-    color: white;
-}
-
-.mensagem{
-    padding-bottom: 40px;
-}
->>>>>>> Stashed changes
-
-
