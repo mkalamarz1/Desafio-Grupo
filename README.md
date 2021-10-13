@@ -30,18 +30,14 @@ Nesta página <b>HOME</b>, contém 5 divisões: Imagens principais, Início de n
 Nesta página <b>SOBRE</b>, contém 2 divisões: Quadros 1 e 2 de colaboradores do grupo 03.
 
 <b>Quadros 1 e 2 de colaboradores do grupo 03</b><br />
-<img src="imagensREADME/div-quemSomos.png"/>
+<img src="imagensREADME/div-sobre.png"/>
 
 Nesta página <b>CONTATO</b>, contém 1 divisão pai que tem formulário e texto geral de forma interna.
 
 <b>Formulário</b> e <b>Texto Geral</b><br />
 <img src="imagensREADME/div-contato.png"/>
 
-<<<<<<< Updated upstream
 Nesta página <b>Saiba Mais</b>, contém 1 divisão pai e vários divisões filhos.
-=======
-Nesta página SAIBA MAIS, contém 1 divisão pai e vários divisões filhos.
->>>>>>> Stashed changes
 
 <b>Quadro 1 de fontes internas</b><br />
 <img src="imagensREADME/div-saibaMais.png"/>
