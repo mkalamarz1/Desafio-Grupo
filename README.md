@@ -8,38 +8,38 @@ Começando pelo formato <b>HTML</b>:
 
 Em todas as páginas, tem divisões padrões: navegação, título (trocando de nome conforme página diferente) e rodapé.
 
-<b>Navegação</b> e <b>Título</b>
+<b>Navegação</b> e <b>Título</b><br />
 <img src="imagensREADME/div-padrao.png"/>
 
-<b>Rodapé</b>
+<b>Rodapé</b><br />
 <img src="imagensREADME/div-padrao1.png"/>
 
 Na página principal chamada Início, contém 6 notícias positivas escolhidas por grupo 03. Incluindo as descrições de imagens para cegos poderem ler de forma satisfatória. 
 
 Nesta página <b>principal</b>, contém 5 divisões: Imagens principais, Início de notícias, Quadro 1 e 2 de notícias com imagens, e Quadro 3 de notícia com vídeo. E nesse quadro 3, tem video configurado no HTML para funcionar normalmente. 
 
-<b>Imagens principais</b>, <b>Início de notícias</b> e <b>Quadro 1 de notícias com imagens</b>
+<b>Imagens principais</b>, <b>Início de notícias</b> e <b>Quadro 1 de notícias com imagens</b><br />
 <img src="imagensREADME/div-inicio1.png"/>
 
-<b>Quadro 2 de notícias com imagens</b> e <b>Quadro 3 de notícia com video</b>
+<b>Quadro 2 de notícias com imagens</b> e <b>Quadro 3 de notícia com video</b><br />
 <img src="imagensREADME/div-inicio2.png"/>
 
-<b>No quadro 3, mostra vídeo configurado</b>
+<b>No quadro 3, mostra vídeo configurado</b><br />
 <img src="imagensREADME/div-inicioVideo.png"/>
 
 Nesta página <b>Quem Somos</b>, contém 2 divisões: Quadros 1 e 2 de colaboradores do grupo 03.
 
-<b>Quadros 1 e 2 de colaboradores do grupo 03</b>
+<b>Quadros 1 e 2 de colaboradores do grupo 03</b><br />
 <img src="imagensREADME/div-quemSomos.png"/>
 
 Nesta página <b>Contato</b>, contém 1 divisão pai que tem formulário e texto geral de forma interna.
 
-<b>Formulário</b> e <b>Texto Geral</b>
+<b>Formulário</b> e <b>Texto Geral</b><br />
 <img src="imagensREADME/div-contato.png"/>
 
-Nesta página Saiba Mais, contém 1 divisão pai e vários divisões filhos.
+Nesta página <b>Saiba Mais</b>, contém 1 divisão pai e vários divisões filhos.
 
-<b>Quadro 1 de fontes internas</b>
+<b>Quadro 1 de fontes internas</b><br />
 <img src="imagensREADME/div-saibaMais.png"/>
 
 No formato <b>CSS</b>, tem vários componentes que encontramos e conhecemos na internet e mostraremos quais os componentes que fomos aprender fora das aulas de HTML e CSS do professor Isidro.
