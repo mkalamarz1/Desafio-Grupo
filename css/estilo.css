@@ -1,18 +1,32 @@
 body{
-    background-color: gray;
     font-family:sans-serif;
-    margin:0;
-    padding:0;
+    margin: 0px;
 }
 
-/* NAVEGAÇÃO */
-.navbar{
+/* NAVEGAÇÃO EM TODAS AS PÁGINAS */
+#navbar{
     display: block;
     padding: 30px 0;
-    background-image:  linear-gradient(#242529, #3D3F45);
+    background-image: linear-gradient(#242529, #3D3F45);
     justify-content: right;
 }
 
+/* TITULO G3 EM TODAS AS PÁGINAS */
+#title{
+    background-image: linear-gradient(#242529, #3D3F45);
+    border-radius: 20px;
+    max-width:40%;
+    display: inline-block; 
+    padding: 20px;
+    margin: 5px 30px;
+    font-size: 25px;
+    font-style: 20px solid;
+    color: white;
+    box-shadow: orange 5px 5px 5px;
+    font-weight: bold;
+}
+
+/* MENU EM TODAS AS PÁGINAS*/
 ul{
     float: right;
     margin: 0 25px;  
@@ -46,58 +60,55 @@ ul li a:hover{
     color: orange;
 }
 
-/*TITULO G3*/
-.title{
-    background-image:  linear-gradient(#242529, #3D3F45);
-    border-radius: 20px;
-    max-width:40%;
-    border: none solid;
-    display: inline-block; 
-    padding: 20px;
-    margin: 5px 30px;
-    font-size: 25px;
-    font-style: 20px solid;
-    color: white;
-    box-shadow: orange 5px 5px 5px;
-    font-weight: bold;
-} 
-
-/* 2 IMAGENS VACINADAS */
-.noticiasPrincipais{
-    background-color: orange;  
-    padding:50px 0;      
+/* TITULO EM TODAS AS PÁGINAS MENOS INÍCIO */
+#titulo{
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    padding: 30px;
 }
 
-.noticiasPrincipais p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: size 50px;
-    font-weight:normal;
-    width:70%;
-    margin:0 auto;  
-}
-
-.imagensPrincipais{
+#titulo h1{
+    color:black;
     text-align: center;
-   justify-content: center;
 }
 
-/* INÍCIO DE NOTÍCIAS */
-.noticiasGerais{
-    background-image:linear-gradient(#242529, #3D3F45);
+/* 2 IMAGENS VACINADAS - PÁGINA INÍCIO */
+#noticiasPrincipais{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    padding: 50px 0;    
+}
+
+#noticiasPrincipais p{
+    font-size: 20px;
+    font-weight: normal;
+    width: 70%;
+    margin: 0 auto; 
+}
+
+#imagensPrincipais{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* INÍCIO DE NOTÍCIAS - PÁGINA INÍCIO */
+#noticiasGerais{
+    background-image: linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
-    margin:0;
-    padding:8px;
+    margin: 0;
+    padding: 8px;
 }
 
-.fonte{
+#noticiasGerais p{
     color: white;
     font-weight: bold;
-    font-size:25px;
+    font-size: 25px;
 }
 
-/* QUADRO 1 DE NOTICIAS */
-.bloco1{
+/* QUADRO 1 DE NOTICIAS - PÁGINA INÍCIO */
+#quadro1{
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -106,6 +117,8 @@ ul li a:hover{
     margin: 0;
     display: inline-flex;
     text-align: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
 .noticia1{
@@ -121,15 +134,17 @@ ul li a:hover{
     width:70%;
     text-align: left;
     margin:auto;
+    color: black;
 }
 
 .imagemNews{
     width: 70%;
     height: 50%;
+    margin-bottom: 10px;
 }
 
-/* QUADRO 2 DE NOTÍCIAS */
-.bloco2{
+/* QUADRO 2 DE NOTÍCIAS - PÁGINA INÍCIO */
+#quadro2{
     width: 100%;
     padding: 40px 0 10px 0;
     color: white;
@@ -138,7 +153,8 @@ ul li a:hover{
     margin: 0;
     display: inline-flex;
     text-align: center;
-    background-color: orange;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
 .noticia2{
@@ -146,63 +162,78 @@ ul li a:hover{
     text-align: center;
     vertical-align: top;
     margin: 0 5px;
-    padding:10px;   
+    padding: 10px;  
+    margin-left: 20px; 
 }
 
 .noticia2 p{
     font-size: 14px;
     width:70%;
-    text-align: left;
-    margin:auto;
+    margin: auto;
+    color: black;
 }
 
 .imagemNews2{
     width: 70%;
     height: 50%;
+    margin-bottom: 10px;
 }
 
-.noticia2{
-    margin-left: 20px;   
-}
-
-/* QUADRO 3 DE VIDEO */
-.videoContainer{
-    background-image:linear-gradient(#242529, #3D3F45);
+/* QUADRO 3 DE VIDEO - PÁGINA INÍCIO */
+#videoContainer{
     text-align:center;
     position: relative;
     padding:20px 0 50px 0;   
-}
-
-.fonteVideo{
-    justify-content: center;
-    display: flex;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     color: white;
 }
 
-.video{
+#videoContainer p{
+    justify-content: center;
+    display: flex;
+    color: black;
     width: 50%;
-    padding-top: 50px;   
+    margin: auto;
 }
 
-/*TITULO TODOS html*/
-.blocoGeral{
-    background:orange;
-    margin:0;
-    padding:30px
+#video{
+    width: 50%;
+    padding-top: 50px;
+    margin-bottom: 10px;
 }
 
-.blocoGeral h1{
-    margin:0;
-    color:black;
+/* BOTÃO GERAL - PÁGINA INÍCIO */
+.botao{
+    background-color:  blue;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+}
+
+.botao a{
+    color: white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* BOTÃO DE VÍDEO - PÁGINA INÍCIO */
+#botao-video{
+    background-color: blue;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
     text-align:center;
 }
 
-/*QUADRO 1 DE QUEM SOMOS*/
-.quemSomos h3{
-    font-size:20px;
+#botao-video a{
+    color: white;
+    font-weight:bold;
+    text-decoration:none;
 }
 
-.blocoQuemSomos1{
+/* QUADRO 1 - PÁGINA QUEM SOMOS */
+#quadroQuemSomos1{
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -211,6 +242,8 @@ ul li a:hover{
     margin: 0 auto;
     display: inline-flex;
     justify-content: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
 .quemSomos{
@@ -228,10 +261,15 @@ ul li a:hover{
     text-align: center;
     margin:auto;
     margin-top:5px;
+    color: black;
 }
 
-/*QUADRO 2 DE QUEM SOMOS*/
-.blocoQuemSomos2{
+.quemSomos h3{
+    font-size:20px;
+}
+
+/* QUADRO 2 - PÁGINA QUEM SOMOS */
+#quadroQuemSomos2{
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -240,6 +278,8 @@ ul li a:hover{
     margin: 0 auto;
     display: inline-flex;
     justify-content: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
 .quemSomos2{
@@ -257,104 +297,23 @@ ul li a:hover{
     text-align: center;
     margin:auto;
     margin-top:5px;
+    color: black;
 }
 
 .quemSomos2 h3{
     font-size:20px;
 }
 
-/*FOTOS DE quemsomos.html*/
-.imagemPrimario{
+/* FOTOS - PÁGINA QUEM SOMOS */
+.imagemLinkedin{
     max-width: 70%;
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
     text-align:center;
 }
 
-/*PÁGINA DE CONTATO*/
-.blocoForm{
-    display: table;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 50px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-}
-
-.textoContatinho{
-    display: table-cell;
-    width: 50%;
-    margin: 0 0 0 40px;
-    vertical-align: top;
-    padding: 0 20px 0 70px;
-    font-size:20px;
-    text-transform: uppercase;
-}
-
-/*FORM*/
-.form{
-    display: table-cell;
-    float: right;
-    width: 80%;
-    margin: 0 70px;
-}
-
-.form1{
-    padding:5px;
-}
-
-.perguntas{
-    font-size:20px;
-    color:black
-}
-
-input{
-    width:100%;
-    margin-top:5px;
-    padding:10px 0;
-    border-radius:10px;
-    font-size:15px;
-}
-
-textarea{
-    width:100%;
-    margin-top:5px;
-    padding:10px 0;
-    border-radius:10px;
-    font-size:15px;
-}
-
-
-/* BOTÃO DE ACESSAR index.html */
-.botao{
-    background-color: yellow;
-    border-radius: 10px; 
-    padding:10px 20px;
-    border:none;
-}
-
-.botao a{
-    color:black;
-    font-weight:bold;
-    text-decoration:none;
-}
-
-/*BOTÃO DE VÍDEO index.html*/
-.botao-video{
-    background-color: yellow;
-    border-radius: 10px; 
-    padding:10px 20px;
-    border:none;
-    text-align:center;
-}
-
-.botao-video a{
-    color:black;
-    font-weight:bold;
-    text-decoration:none;
-}
-
-/*BOTÃO DE LINKEDIN quemsomos.html*/
+/* BOTÃO DE LINKEDIN - PÁGINA QUEM SOMOS */
 .botao-linkedin{
     background-color: #0e76a8;
     border-radius: 10px; 
@@ -370,17 +329,83 @@ textarea{
     font-size:18px;
 }
 
-/*BOTÃO DE ENVIAR contato.html*/
-.botao-enviar{
+/* PÁGINA DE CONTATO */
+#quadroForm{
+    display: table;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    color: white;
+
+}
+
+#textoContato{
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    padding: 80px 20px 0 70px;
+    font-size:20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+#primeiraVez{
+    color: black;
+    font-weight: bold;
+}
+
+/* FORMULÁRIO - PÁGINA CONTATO */
+#form{
+    display: table-cell;
+    float: right;
+    width: 80%;
+    margin: 0 70px;
+}
+
+#form1{
+    padding:5px;
+}
+
+.campo{
+    font-size:20px;
+    color:black
+}
+
+input{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* BOTÃO DE ENVIAR - PÁGINA CONTATO */
+#botao-enviar{
     background-color: yellow;
-    border-radius: 10px; 
+    border-radius: 10px;
+    margin-left: 270px; 
     padding:10px 20px;
     border:none;
     width:50%;
+    font-weight: bold   ;
 }
 
-/*PAGINA DE SAIBA MAIS*/
-.blocoSaibaMais{
+/* PAGINA SAIBA MAIS */
+#secao{
     background-image:linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
@@ -389,16 +414,19 @@ textarea{
     color:white;
 }
 
-/*INÍCIO DE SAIBA MAIS*/
-.blocoSaibaMais1{
-    width: 90%;
+/* INÍCIO - PÁGINA SAIBA MAIS */
+#quadroSaibaMais{
+    width: 100%;
     text-align:center;
     margin:0 auto;
-    padding:10px 0 40px 0; 
+    padding:10px 0 40px 0;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); 
 }
 
 .fontes{
     text-align: left;
+    padding-left: 70px;
 }
 
 .fontes h3{
@@ -413,13 +441,13 @@ textarea{
     margin:0;    
 }
 
-/*FOOTER*/
-footer{
-    background:black;
-    display:flex;
-    flex-direction:column;
+/* RODAPÉ EM TODAS AS PÁGINAS */
+#rodape{
+    background-image: linear-gradient(#242529, #3D3F45);
+    display: flex;
+    flex-direction: column;
     color:white;
-    padding:15px 0;
-    text-align:center;
-    width:100%;  
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;  
 }
