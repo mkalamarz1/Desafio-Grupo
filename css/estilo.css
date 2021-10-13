@@ -1,10 +1,10 @@
-body{
+body {
     font-family:sans-serif;
     margin: 0px;
 }
 
 /* NAVEGAÇÃO EM TODAS AS PÁGINAS */
-#navbar{
+#navbar {
     display: block;
     padding: 30px 0;
     background-image: linear-gradient(#242529, #3D3F45);
@@ -12,7 +12,7 @@ body{
 }
 
 /* TITULO G3 EM TODAS AS PÁGINAS */
-#title{
+#title {
     background-image: linear-gradient(#242529, #3D3F45);
     border-radius: 20px;
     max-width:40%;
@@ -27,18 +27,16 @@ body{
 }
 
 /* MENU EM TODAS AS PÁGINAS*/
-ul{
+ul {
     float: right;
-    margin: 0 25px;  
+    margin: 0 50px;  
 }
 
-ul li{
+ul li {
     display: inline-block;
-    line-height: 80px;
-    margin: 0;
 }
 
-ul li a{
+ul li a {
     display: block;
     margin: 10px 5px;
     line-height: 50px;
@@ -47,53 +45,52 @@ ul li a{
     font-weight: bold;
 }
 
-ul li a:link, ul li a:visited{
+ul li a:link, ul li a:visited {
     font-weight: normal;
     color: white;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 10px;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: orange;
 }
 
-/* TITULO EM TODAS AS PÁGINAS MENOS INÍCIO */
-#titulo{
+/* TITULO EM TODAS AS PÁGINAS */
+#titulo {
     background-color: #bbf0f3;
     background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
     padding: 30px;
 }
 
-#titulo h1{
+#titulo h1 {
     color:black;
     text-align: center;
 }
 
 /* 2 IMAGENS VACINADAS - PÁGINA INÍCIO */
-#noticiasPrincipais{
+#noticiasPrincipais {
     background-color: #ff4e00;
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     padding: 50px 0;    
 }
 
-#noticiasPrincipais p{
+#noticiasPrincipais p {
     font-size: 20px;
     font-weight: normal;
     width: 70%;
     margin: 0 auto; 
 }
 
-#imagensPrincipais{
+#imagensPrincipais {
     text-align: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 
 /* INÍCIO DE NOTÍCIAS - PÁGINA INÍCIO */
-#noticiasGerais{
+#noticiasGerais {
     background-image: linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
@@ -101,14 +98,14 @@ ul li a:hover{
     padding: 8px;
 }
 
-#noticiasGerais p{
+#noticiasGerais p {
     color: white;
     font-weight: bold;
     font-size: 25px;
 }
 
 /* QUADRO 1 DE NOTICIAS - PÁGINA INÍCIO */
-#quadro1{
+#quadro1 {
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -121,30 +118,29 @@ ul li a:hover{
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.noticia1{
+.noticia1 {
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 5px;
-    padding:10px;    
+    padding: 10px;    
 }
 
-.noticia1 p{
+.noticia1 p {
     font-size: 14px;
-    width:70%;
+    width: 70%;
     text-align: left;
-    margin:auto;
+    margin: auto;
     color: black;
 }
 
-.imagemNews{
+.imagemNews {
     width: 70%;
     height: 50%;
     margin-bottom: 10px;
 }
 
 /* QUADRO 2 DE NOTÍCIAS - PÁGINA INÍCIO */
-#quadro2{
+#quadro2 {
     width: 100%;
     padding: 40px 0 10px 0;
     color: white;
@@ -157,39 +153,38 @@ ul li a:hover{
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.noticia2{
+.noticia2 {
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 5px;
     padding: 10px;  
     margin-left: 20px; 
 }
 
-.noticia2 p{
+.noticia2 p {
     font-size: 14px;
     width:70%;
     margin: auto;
     color: black;
 }
 
-.imagemNews2{
+.imagemNews2 {
     width: 70%;
     height: 50%;
     margin-bottom: 10px;
 }
 
 /* QUADRO 3 DE VIDEO - PÁGINA INÍCIO */
-#videoContainer{
-    text-align:center;
+#videoContainer {
+    text-align: center;
     position: relative;
-    padding:20px 0 50px 0;   
+    padding: 20px 0 50px 0;   
     background-color: #ff4e00;
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     color: white;
 }
 
-#videoContainer p{
+#videoContainer p {
     justify-content: center;
     display: flex;
     color: black;
@@ -197,43 +192,41 @@ ul li a:hover{
     margin: auto;
 }
 
-#video{
+#video {
     width: 50%;
     padding-top: 50px;
     margin-bottom: 10px;
 }
 
 /* BOTÃO GERAL - PÁGINA INÍCIO */
-.botao{
-    background-color:  blue;
+.botao {
+    background-color: blue;
     border-radius: 10px; 
-    padding:10px 20px;
-    border:none;
+    padding: 10px 20px;
 }
 
-.botao a{
+.botao a {
     color: white;
-    font-weight:bold;
-    text-decoration:none;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /* BOTÃO DE VÍDEO - PÁGINA INÍCIO */
-#botao-video{
+#botao-video {
     background-color: blue;
     border-radius: 10px; 
-    padding:10px 20px;
-    border:none;
-    text-align:center;
+    padding: 10px 20px;
+    text-align: center;
 }
 
-#botao-video a{
+#botao-video a {
     color: white;
-    font-weight:bold;
-    text-decoration:none;
+    font-weight :bold;
+    text-decoration: none;
 }
 
 /* QUADRO 1 - PÁGINA QUEM SOMOS */
-#quadroQuemSomos1{
+#quadroQuemSomos1 {
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -246,30 +239,29 @@ ul li a:hover{
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.quemSomos{
-    width:70%;
+.quemSomos {
+    width: 70%;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 5px;
-    padding:10px;
+    padding: 10px;
 }
 
-.quemSomos p{
+.quemSomos p {
     font-size: 14px;
-    width:70%;
+    width: 70%;
     text-align: center;
-    margin:auto;
-    margin-top:5px;
+    margin: auto;
+    margin-top: 5px;
     color: black;
 }
 
-.quemSomos h3{
-    font-size:20px;
+.quemSomos h3 {
+    font-size: 20px;
 }
 
 /* QUADRO 2 - PÁGINA QUEM SOMOS */
-#quadroQuemSomos2{
+#quadroQuemSomos2 {
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -282,55 +274,54 @@ ul li a:hover{
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
-.quemSomos2{
+.quemSomos2 {
     width:70%;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 5px;
-    padding:10px;
+    padding: 10px;
 }
 
-.quemSomos2 p{
+.quemSomos2 p {
     font-size: 14px;
-    width:70%;
+    width: 70%;
     text-align: center;
-    margin:auto;
-    margin-top:5px;
+    margin: auto;
+    margin-top: 5px;
     color: black;
 }
 
-.quemSomos2 h3{
-    font-size:20px;
+.quemSomos2 h3 {
+    font-size: 20px;
 }
 
 /* FOTOS - PÁGINA QUEM SOMOS */
-.imagemLinkedin{
+.imagemLinkedin {
     max-width: 70%;
     display: flex;
     margin: 0 auto;
     margin-bottom: 10px;
-    text-align:center;
+    text-align: center;
 }
 
 /* BOTÃO DE LINKEDIN - PÁGINA QUEM SOMOS */
-.botao-linkedin{
+.botao-linkedin {
     background-color: #0e76a8;
     border-radius: 10px; 
-    padding:10px 20px;
-    border:none;
-    text-align:center;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
 }
 
-.botao-linkedin a{
-    color:white;
-    font-weight:bold;
-    text-decoration:none;
-    font-size:18px;
+.botao-linkedin a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 /* PÁGINA DE CONTATO */
-#quadroForm{
+#quadroForm {
     display: table;
     justify-content: space-evenly;
     margin: 0;
@@ -340,72 +331,76 @@ ul li a:hover{
     background-color: #ff4e00;
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
     color: white;
-
 }
 
-#textoContato{
+#textoContato {
     display: table-cell;
     width: 50%;
     vertical-align: top;
     padding: 80px 20px 0 70px;
-    font-size:20px;
+    font-size: 20px;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
 }
 
-#primeiraVez{
+#primeiraVez {
     color: black;
     font-weight: bold;
 }
 
 /* FORMULÁRIO - PÁGINA CONTATO */
-#form{
+#form {
     display: table-cell;
     float: right;
     width: 80%;
     margin: 0 70px;
+    font-weight: bold;
 }
 
-#form1{
-    padding:5px;
+#form1 {
+    padding: 5px;
 }
 
-.campo{
-    font-size:20px;
-    color:black
+.campo {
+    font-size: 20px;
+    color:black;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-input{
+input {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px 0;
     border-radius: 10px;
     font-size: 15px;
+    border: none;
 }
 
-textarea{
+textarea {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 10px 0;
     border-radius: 10px;
     font-size: 15px;
+    border: none;
 }
 
 /* BOTÃO DE ENVIAR - PÁGINA CONTATO */
-#botao-enviar{
+#botao-enviar {
     background-color: yellow;
     border-radius: 10px;
     margin-left: 270px; 
-    padding:10px 20px;
-    border:none;
-    width:50%;
-    font-weight: bold   ;
+    padding: 10px 20px;
+    border: none;
+    width: 50%;
+    font-weight: bold;
 }
 
 /* PAGINA SAIBA MAIS */
-#secao{
+#secao {
     background-image:linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
@@ -415,11 +410,11 @@ textarea{
 }
 
 /* INÍCIO - PÁGINA SAIBA MAIS */
-#quadroSaibaMais{
+#quadroSaibaMais {
     width: 100%;
-    text-align:center;
-    margin:0 auto;
-    padding:10px 0 40px 0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0 40px 0;
     background-color: #ff4e00;
     background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); 
 }
@@ -430,22 +425,21 @@ textarea{
 }
 
 .fontes h3{
-    font-size:20px;
-    margin-bottom:0;
-    padding:10px 0;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 10px 0;
 }
 
 .fontes a{
-    color:mediumblue;
-    text-decoration: none;
-    margin:0;    
+    color: mediumblue;
+    text-decoration:  none;  
 }
 
 /* RODAPÉ EM TODAS AS PÁGINAS */
 #rodape{
     background-image: linear-gradient(#242529, #3D3F45);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     color:white;
     padding: 15px 0;
     text-align: center;
