@@ -25,7 +25,7 @@ Nesta página <b>principal</b>, contém 5 divisões: Imagens principais, Início
 <img src="imagensREADME/div-inicio2.png"/>
 
 <b>No quadro 3, mostra vídeo configurado</b>
-<img src="imagensREADME/div-inicio3.png"/>
+<img src="imagensREADME/div-inicioVideo.png"/>
 
 Nesta página <b>Quem Somos</b>, contém 2 divisões: Quadros 1 e 2 de colaboradores do grupo 03.
 
