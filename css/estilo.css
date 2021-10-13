@@ -1,178 +1,391 @@
 body{
     background-color: gray;
     font-family:sans-serif;
-
+    margin:0;
+    padding:0;
 }
 
 /* NAVEGAÇÃO */
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.navbar{
+    display: block;
+    padding: 30px 0;
     background-image:  linear-gradient(#242529, #3D3F45);
-    
+    justify-content: right;
 }
-
-a {
+ul{
+    float: right;
+    margin: 0 25px;  
+}
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+}
+ul li a{
+    display: block;
+    margin: 10px 5px;
+    line-height: 50px;
     color: white;
-    text-decoration: unset;
-    border-radius: 5px;
-    border: gray 2px solid;
+    font-size: 18px;
+    font-weight: bold;
 }
-
-#title{
+ul li a:link, ul li a:visited{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+ul li a:hover{
+    color: orange;
+}
+/*TITULO G3*/
+.title{
+    background-image:  linear-gradient(#242529, #3D3F45);
     border-radius: 20px;
-    border: black 2px solid;
-    justify-content: center;
-    display: flex; 
-    padding: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    max-width:40%;
+    border: none solid;
+    display: inline-block; 
+    padding: 20px;
+    margin: 5px 30px;
     font-size: 25px;
     font-style: 20px solid;
     color: white;
-    box-shadow: orange 5px 10px 5px;
+    box-shadow: orange 5px 5px 5px;
     font-weight: bold;
 } 
 
 /* 2 IMAGENS VACINADAS */
-#noticiasPrincipais{
-    background-color: orange;
-    padding-bottom: 1px;   
+.noticiasPrincipais{
+    background-color: orange;  
+    padding:50px 0;      
 }
-
-#imagensPrincipais{
-    padding-left: 125px;
-    padding-top: 50px;
-    padding-bottom: 50px;   
+.noticiasPrincipais p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: size 50px;
+    font-weight:normal;
+    width:70%;
+    margin:0 auto;  
+}
+.imagensPrincipais{
+    text-align: center;
+   justify-content: center;
 }
 
 /* INÍCIO DE NOTÍCIAS */
-#noticiasGerais{
+.noticiasGerais{
     background-image:linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
-    margin-top: 0px;
-    
+    margin:0;
+    padding:8px;
 }
-
-#fonte{
+.fonte{
     color: white;
     font-weight: bold;
+    font-size:25px;
 }
 
 /* QUADRO 1 DE NOTICIAS */
-#noticias1{
-    display: flex;
-    justify-content: space-between;
-    background-color: orange;
+.bloco1{
     width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
 }
-
-.noticia{
-    margin-left: 20px;
+.noticia1{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;    
 }
-
-#imagemPrimario{
-    width: 75%;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 45px;
+.noticia1 p{
+    font-size: 14px;
+    width:70%;
+    text-align: left;
+    margin:auto;
 }
-
-#imagemSecundaria{
-    padding-left: 100px;
-    padding-top: 50px;
-    width: 50%;
-}
-
-#imagemTerceira{
-    padding-left: 100px;
-    padding-top: 50px;
-    width: 49%;
-    padding-bottom: 0px;
+.imagemNews{
+    width: 70%;
+    height: 50%;
 }
 
 /* QUADRO 2 DE NOTÍCIAS */
-#noticias2{
-    display: flex;
-    justify-content: space-between;
+.bloco2{
+    width: 100%;
+    padding: 40px 0 10px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
     background-color: orange;
-
 }
-
 .noticia2{
-    margin-left: 20px;
-    
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;   
 }
-
-.imagem1{
-    padding-left: 170px;
-    padding-top: 50px;
-    width: 50%;
-    
+.noticia2 p{
+    font-size: 14px;
+    width:70%;
+    text-align: left;
+    margin:auto;
+}
+.imagemNews2{
+    width: 70%;
+    height: 50%;
+}
+.noticia2{
+    margin-left: 20px;   
 }
 
 /* QUADRO 3 DE VIDEO */
-#videoContainer{
+.videoContainer{
     background-image:linear-gradient(#242529, #3D3F45);
-        
+    text-align:center;
+    position: relative;
+    padding:20px 0 50px 0;   
 }
-
 .fonteVideo{
     justify-content: center;
     display: flex;
     color: white;
-
 }
-
-#video{
-    padding-left: 300px;
+.video{
     width: 50%;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 
-/* BOTÃO */
+/*TITULO TODOS html*/
+.blocoGeral{
+    background:orange;
+    margin:0;
+    padding:30px
+}
+.blocoGeral h1{
+    margin:0;
+    color:black;
+    text-align:center;
+}
+
+/*QUADRO 1 DE QUEM SOMOS*/
+.quemSomos h3{
+    font-size:20px;
+}
+.blocoQuemSomos1{
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+.quemSomos{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;
+}
+.quemSomos p{
+    font-size: 14px;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    margin-top:5px;
+}
+/*QUADRO 2 DE QUEM SOMOS*/
+.blocoQuemSomos2{
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+.quemSomos2{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 5px;
+    padding:10px;
+}
+.quemSomos2 p{
+    font-size: 14px;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    margin-top:5px;
+}
+.quemSomos2 h3{
+    font-size:20px;
+}
+/*FOTOS DE quemsomos.html*/
+.imagemPrimario{
+    max-width: 70%;
+    display: flex;
+    margin:0 auto;
+    text-align:center;
+}
+
+/*PÁGINA DE CONTATO*/
+.blocoForm{
+    display: table;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.textoContatinho{
+    display: table-cell;
+    width: 50%;
+    margin: 0 0 0 40px;
+    vertical-align: top;
+    padding: 0 20px 0 70px;
+    font-size:20px;
+    text-transform: uppercase;
+}
+/*FORM*/
+.form{
+    display: table-cell;
+    float: right;
+    width: 80%;
+    margin: 0 70px;
+}
+.form1{
+    padding:5px;
+}
+.perguntas{
+    font-size:20px;
+    color:black
+}
+input{
+    width:100%;
+    margin-top:5px;
+    padding:10px 0;
+    border-radius:10px;
+    font-size:15px;
+}
+textarea{
+    width:100%;
+    margin-top:5px;
+    padding:10px 0;
+    border-radius:10px;
+    font-size:15px;
+}
+
+/* BOTÃO DE ACESSAR index.html */
 .botao{
     background-color: yellow;
-    border-radius: 20px; 
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+}
+.botao a{
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
 }
 
-#contato{
+/*BOTÃO DE VÍDEO index.html*/
+.botao-video{
+    background-color: yellow;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+    text-align:center;
+}
+.botao-video a{
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/*BOTÃO DE LINKEDIN quemsomos.html*/
+.botao-linkedin{
+    background-color: #0e76a8;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+    text-align:center;
+}
+.botao-linkedin a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/*BOTÃO DE ENVIAR contato.html*/
+.botao-enviar{
+    background-color: yellow;
+    border-radius: 10px; 
+    padding:10px 20px;
+    border:none;
+    width:50%;
+}
+
+/*PAGINA DE SAIBA MAIS*/
+.blocoSaibaMais{
+    background-image:linear-gradient(#242529, #3D3F45);
     justify-content: center;
     display: flex;
-    font-weight: bold;
+    margin:0;
+    padding:8px 0;
     color:white;
-    font-size: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: orange; 
-
+}
+/*INÍCIO DE SAIBA MAIS*/
+.blocoSaibaMais1{
+    width: 90%;
+    text-align:center;
+    margin:0 auto;
+    padding:10px 0 40px 0; 
+}
+.fontes{
+    text-align: left;
+}
+.fontes h3{
+    font-size:20px;
+    margin-bottom:0;
+    padding:10px 0;
+}
+.fontes a{
+    color:mediumblue;
+    text-decoration: none;
+    margin:0;    
 }
 
-#contato p{
-    font-size: 50px;
-    border-radius: 20px;
-    display: flex;
+/*FOOTER*/
+footer{
+    background:black;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    padding:15px 0;
+    text-align:center;
+    width:100%;  
 }
 
-#textoContatinho{
-    border: black 2px solid;
-    display: flex;
-    justify-content: space-evenly;
-}
 
-#textoContatinho p{
 
-    border: black 2px solid;
-}
 
-#form{
-    border: black 2px solid;
-    
-    
-}
+
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,44 +12,54 @@
 <body>
 
     <!--NAVEGAÇÃO-->
-    <div id="navbar">
-        <div id="title"> G3 - VACINA SALVA VIDAS </div>
-        <div> <a href="index.html" > INÍCIO </a> </div> 
-        <div> <a href="QUEM SOMOS.html"> QUEM SOMOS </a> </div>
-        <div> <a href="CONTATO.html"> CONTATO </a> </div>
-        <div> <a href="SAIBA MAIS.html"> SAIBA MAIS </a> </div>
+    <div class="navbar">
+        <div class="title"> G3 - VACINA SALVA VIDAS </div>
+        <ul>
+            <li><a href="index.html"> INÍCIO </a></li>
+            <li><a href="quemsomos.html"> QUEM SOMOS</a></li>
+            <li><a href="contato.html"> CONTATO </a></li>
+            <li><a href="saibamais.html"> SAIBA MAIS </a></li>
+        </ul>
     </div>
 
-    <div id="contato">
-        <p>CONTATO</p> 
+    <!--TITULO-->
+    <div class="blocoGeral">
+        <h1>CONTATO</h1>
     </div>
 
-    <div id="textoContatinho">
-        <p> Gostaria de fazer alguma crítica, <br />sugestão ou mesmo conhecer mais sobre a equipe?<br /> 
-            Entre com seus dados a baixo e sua mensagem, <br />que assim que possível responderemos!
-        </p>
-        <div id="form">
-            <form>       
-                <div>
-                    <p>Nome: </p>
+    <!--PÁGINA DE CONTATO-->
+    <div class="blocoForm">
+        <div class="textoContatinho">
+            <p> Gostaria de fazer alguma crítica, sugestão ou mesmo conhecer mais sobre a equipe?<br />
+                Entre com seus dados e sua mensagem, que assim que possível responderemos!
+            </p>
+        </div>
+        <!--FORM-->
+        <div class="form">
+            <form>
+                <div class="form1">
+                    <label class="perguntas">Nome </label>
                     <input type="text" name="Nome" placeholder="Digite seu nome aqui">
                 </div>
-                <div>
-                    <p>CPF: </p>
-                    <input type="text" name="CPF" placeholder="999.999.999-99">
+                <div class="form1">
+                    <label class="perguntas">CPF </label>
+                    <input type="text" name="CPF" placeholder="000.000.000-00">
                 </div>
-                <div>
-                    <p>E-mail: </p>
+                <div class="form1">
+                    <label class="perguntas">E-mail </label>
                     <input type="email" name="E-Mail" placeholder="Digite seu E-Mail">
                 </div>
-                <div>
-                    <p> <label for="Mensagem">Escreva sua mensagem:</label> </p>
-                    <textarea class="mensagem" name="mensagem"></textarea>
-                    <input type="submit" name="Enviar" value="Enviar">
+                <div class="form1">
+                    <textarea cols="30" rows="10" class="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
                 </div>
+                <input class="botao-enviar" type="submit" name="Enviar" value="Enviar">
             </form>
         </div>
     </div>
 
 </body>
+<footer>
+    2021 Copyright - G3 VACINA SALVA VIDAS
+</footer>
+
 </html>
